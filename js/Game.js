@@ -347,7 +347,7 @@ class Game {
       }
 
       //C41 //SA
-      //Reducing Player Life
+      //Reduzindo a vida do jogador
       if (player.life > 0) {
         player.life -= 185 / 4;
       }
@@ -366,7 +366,7 @@ class Game {
           player.positionX -= 100;
         }
 
-        //Reducing Player Life
+        //Reduzindo a vida do jogador
         if (player.life > 0) {
           player.life -= 185 / 4;
         }
